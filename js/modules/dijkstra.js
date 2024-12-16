@@ -81,7 +81,7 @@ class PriorityQueue {
     }
 }
 
-// add oter modes of transport later
+// add other modes of transport later
 function connectionWeight(type) {
     if (type === "plane") return 0.1; 
     if (type === "train") return 1;   
