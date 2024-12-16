@@ -1,0 +1,31 @@
+#map {
+    height: 80vh;
+    width: 99vw;
+}
+
+.path-img {
+    height: 3rem;
+}
+
+.qrcode {
+    width: -webkit-fill-available;
+    width: -moz-available; 
+    width: fill-available;
+    max-width: 50rem;
+}
+
+@media screen and (max-width: 700px) {
+    #map {
+        height: 70vh;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #map {
+        height: 60vh;
+    }
+}
